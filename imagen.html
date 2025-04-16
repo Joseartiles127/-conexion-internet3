@@ -18,15 +18,41 @@
       <img src="img/router.jpg" alt="Router y conexión">
       <img src="img/INTERNET01.jpg" alt="Red local">
       <img src="img/Como-conectar-a-Internet-una-vivienda.jpg" alt="Conexión en vivienda">
-      <img src="img/"IMG-20250416-WA0001.jpg" alt="Esquema ASP ProactiveOffice" onclick="ampliarImagen(this)">
-      <img src="img/"IMG-20250416-WA0002.jpg" alt="Router WiFi" onclick="ampliarImagen(this)"
-      <img src="img/"IMG-20250416-WA0003.jpg" alt="Conexión de red inalámbrica" onclick="ampliarImagen(this)">
     </div>
   </section>
 
   <footer>
     <p>© 2025 | Proyecto Grupal - Conexión a Internet</p>
   </footer>
+
+  <script src="imagen.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conexión a Internet</title>
+  <link rel="stylesheet" href="imagen.css" />
+</head>
+<body>
+  <header>
+    <h1>Conexión a Internet</h1>
+    <p>Trabajo en grupo: Jose Artiles, Luis Emilio Ramírez y Karolay G. Javier</p>
+  </header>
+
+  <section class="galeria">
+    <img src="IMG-20250416-WA0001.jpg" alt="Esquema ASP ProactiveOffice" onclick="ampliarImagen(this)">
+    <img src="IMG-20250416-WA0002.jpg" alt="Router WiFi" onclick="ampliarImagen(this)">
+    <img src="IMG-20250416-WA0003.jpg" alt="Conexión de red inalámbrica" onclick="ampliarImagen(this)">
+  </section>
+
+  <div id="modal" class="modal" onclick="cerrarModal()">
+    <span class="cerrar">X</span>
+    <img id="imagenGrande" class="modal-contenido" />
+  </div>
 
   <script src="imagen.js"></script>
 </body>
